@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Visuaali from './Visual';
+
+
+
 
 function App() {
   return (
@@ -18,6 +22,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+        <Visuaali/>
+      </div>
     </div>
   );
 }
